@@ -1,23 +1,24 @@
-module github.com/chaosblade-io/chaosblade-exec-cri
+module github.com/deepsola/chaosblade-exec-cri
 
 go 1.20
 
 require (
-	github.com/chaosblade-io/chaosblade-exec-os v1.7.3
+	github.com/chaosblade-io/chaosblade-exec-cri v1.7.3
 	github.com/chaosblade-io/chaosblade-spec-go v1.7.3
 	github.com/containerd/cgroups v1.0.2-0.20210605143700-23b51209bf7b
 	github.com/containerd/containerd v1.5.6
+	github.com/deepsola/chaosblade-exec-os v1.0.0
 	github.com/docker/docker v25.0.3+incompatible
 	github.com/gogo/protobuf v1.3.2
 	github.com/opencontainers/runtime-spec v1.0.3-0.20210326190908-1c3f411f0417
 )
 
 require (
-	github.com/Azure/go-ansiterm v0.0.0-20210617225240-d185dfc1b5a1 // indirect
 	github.com/Microsoft/go-winio v0.4.17 // indirect
 	github.com/Microsoft/hcsshim v0.8.21 // indirect
 	github.com/StackExchange/wmi v1.2.1 // indirect
 	github.com/bits-and-blooms/bitset v1.2.0 // indirect
+	github.com/chaosblade-io/chaosblade-exec-os v1.7.3 // indirect
 	github.com/containerd/continuity v0.1.0 // indirect
 	github.com/containerd/fifo v1.0.0 // indirect
 	github.com/containerd/log v0.1.0 // indirect
@@ -47,7 +48,6 @@ require (
 	github.com/opencontainers/runc v1.0.2 // indirect
 	github.com/opencontainers/selinux v1.8.2 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	github.com/rogpeppe/go-internal v1.11.0 // indirect
 	github.com/shirou/gopsutil v3.21.6+incompatible // indirect
 	github.com/sirupsen/logrus v1.9.3 // indirect
 	github.com/tklauser/go-sysconf v0.3.7 // indirect
@@ -66,7 +66,6 @@ require (
 	golang.org/x/sys v0.17.0 // indirect
 	golang.org/x/term v0.15.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
-	golang.org/x/time v0.0.0-20210723032227-1f47c861a9ac // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240102182953-50ed04b92917 // indirect
 	google.golang.org/grpc v1.61.1 // indirect
 	google.golang.org/protobuf v1.32.0 // indirect

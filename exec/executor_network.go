@@ -19,10 +19,10 @@ package exec
 import (
 	"context"
 	"fmt"
-	"github.com/chaosblade-io/chaosblade-exec-os/exec/model"
 	"github.com/chaosblade-io/chaosblade-spec-go/log"
 	"github.com/chaosblade-io/chaosblade-spec-go/spec"
 	"github.com/chaosblade-io/chaosblade-spec-go/util"
+	"github.com/deepsola/chaosblade-exec-os/exec/model"
 	"os/exec"
 	"path"
 	"strings"
