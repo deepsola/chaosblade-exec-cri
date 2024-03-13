@@ -17,10 +17,10 @@
 package exec
 
 import (
-	"github.com/chaosblade-io/chaosblade-exec-cri/exec/container"
-	"github.com/chaosblade-io/chaosblade-exec-cri/exec/container/containerd"
-	"github.com/chaosblade-io/chaosblade-exec-cri/exec/container/docker"
 	"github.com/chaosblade-io/chaosblade-spec-go/spec"
+	"github.com/deepsola/chaosblade-exec-cri/exec/container"
+	"github.com/deepsola/chaosblade-exec-cri/exec/container/containerd"
+	"github.com/deepsola/chaosblade-exec-cri/exec/container/docker"
 )
 
 func GetClientByRuntime(expModel *spec.ExpModel) (container.Container, error) {

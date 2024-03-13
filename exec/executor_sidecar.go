@@ -26,7 +26,7 @@ import (
 	"github.com/docker/docker/api/types/container"
 	"github.com/docker/docker/api/types/network"
 
-	execContainer "github.com/chaosblade-io/chaosblade-exec-cri/exec/container"
+	execContainer "github.com/deepsola/chaosblade-exec-cri/exec/container"
 )
 
 type RunInSidecarContainerExecutor struct {

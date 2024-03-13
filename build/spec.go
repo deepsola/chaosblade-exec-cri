@@ -24,7 +24,7 @@ import (
 	"github.com/chaosblade-io/chaosblade-spec-go/spec"
 	"github.com/chaosblade-io/chaosblade-spec-go/util"
 
-	"github.com/chaosblade-io/chaosblade-exec-cri/exec"
+	"github.com/deepsola/chaosblade-exec-cri/exec"
 )
 
 // main creates a yaml file of the experiments in the project

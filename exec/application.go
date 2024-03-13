@@ -25,7 +25,7 @@ import (
 	"github.com/chaosblade-io/chaosblade-spec-go/spec"
 	"github.com/chaosblade-io/chaosblade-spec-go/util"
 
-	"github.com/chaosblade-io/chaosblade-exec-cri/version"
+	"github.com/deepsola/chaosblade-exec-cri/version"
 )
 
 var JvmSpecFileForYaml = ""

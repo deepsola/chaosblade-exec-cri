@@ -31,7 +31,7 @@ import (
 	"github.com/docker/docker/api/types/versions"
 	"github.com/docker/docker/client"
 
-	"github.com/chaosblade-io/chaosblade-exec-cri/exec/container"
+	"github.com/deepsola/chaosblade-exec-cri/exec/container"
 )
 
 var cli *Client

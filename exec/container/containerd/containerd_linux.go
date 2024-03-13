@@ -26,7 +26,6 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/chaosblade-io/chaosblade-exec-cri/exec/container"
 	"github.com/chaosblade-io/chaosblade-spec-go/spec"
 	"github.com/chaosblade-io/chaosblade-spec-go/util"
 	"github.com/containerd/containerd"
@@ -38,6 +37,7 @@ import (
 	ctrdutil "github.com/containerd/containerd/pkg/cri/util"
 	"github.com/containerd/containerd/runtime/v2/runc/options"
 	"github.com/containerd/containerd/snapshots"
+	"github.com/deepsola/chaosblade-exec-cri/exec/container"
 	containertype "github.com/docker/docker/api/types/container"
 	"github.com/docker/docker/api/types/network"
 	"github.com/opencontainers/runtime-spec/specs-go"
@@ -203,7 +203,7 @@ func (c *Client) ExecContainer(ctx context.Context, containerId, command string)
 	return container.ExecContainer(ctx, id, command)
 }
 
-//ExecuteAndRemove: create and start a container for executing a command, and remove the container
+// ExecuteAndRemove: create and start a container for executing a command, and remove the container
 func (c *Client) ExecuteAndRemove(ctx context.Context, config *containertype.Config, hostConfig *containertype.HostConfig,
 	networkConfig *network.NetworkingConfig, containerName string, removed bool, timeout time.Duration,
 	command string, containerInfo container.ContainerInfo) (containerId string, output string, err error, code int32) {
